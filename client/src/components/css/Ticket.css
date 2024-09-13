@@ -152,6 +152,10 @@
     width: 100%;
     height: 60%;
   }
+  .info{
+  
+  font-size: 1.9vw;
+}
   .poll{
     display: none;
   }
@@ -159,4 +163,15 @@
     width: 100%;
     height: 40%;
   }
+  .booking_summary h1{
+  font-size: 2.8vw;
+}
+  .summary_info h3{
+  font-size: 2.2vw;
+}
+  .summary_info button{
+  height: 7vw;
+  width: 14vw;
+    font-size: 3.2vw;
+}
 }
