@@ -8,7 +8,7 @@ require('dotenv').config(); // Load environment variables
 // Middleware
 app.use(cors(
     {
-        origin: "*",
+        origin: '*',
         methods: ["POST", "GET"],
         credentials: true
     }
