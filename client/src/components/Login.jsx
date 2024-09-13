@@ -43,7 +43,7 @@ const Login = () => {
     e.preventDefault();
     if (validateForm()) {
       try {
-        const response = await fetch('http://localhost:8000/login', {
+        const response = await fetch('https://movie-website-69kp.vercel.app/login', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
