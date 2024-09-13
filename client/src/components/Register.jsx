@@ -55,7 +55,7 @@ const Register = () => {
     e.preventDefault();
     if (await validateForm()) {
       try {
-        const response = await fetch('https://movie-website-69kp.vercel.app//register', {
+        const response = await fetch('https://movie-website-backend-eta.vercel.app/register', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
