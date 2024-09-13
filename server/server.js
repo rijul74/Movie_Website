@@ -8,7 +8,7 @@ require('dotenv').config(); // Load environment variables
 // Middleware
 app.use(cors(
     {
-        origin: ["https://movie-website-chi-lemon.vercel.app/","localhost:3000"],
+        origin: "*",
         methods: ["POST", "GET"],
         credentials: true
     }
