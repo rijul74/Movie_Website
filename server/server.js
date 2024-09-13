@@ -6,7 +6,13 @@ const bcrypt = require('bcryptjs');
 require('dotenv').config(); // Load environment variables
 
 // Middleware
-app.use(cors());
+app.use(cors(
+    {
+        origin: ["https://movie-website-chi-lemon.vercel.app/","localhost:3000"],
+        methods: ["POST", "GET"],
+        credentials: true
+    }
+));
 app.use(express.json()); // To parse JSON request bodies
 app.use(express.urlencoded({ extended: true })); // To parse URL-encoded request bodies
 
