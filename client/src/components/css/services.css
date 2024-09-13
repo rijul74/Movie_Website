@@ -59,7 +59,7 @@
   }
 @media (max-width:800px) {
     .services-page{
-        height: 110vw;
+        height: auto;
     }
     .service-item{
         height: 40vw;
