@@ -55,7 +55,7 @@ const Register = () => {
     e.preventDefault();
     if (await validateForm()) {
       try {
-        const response = await fetch('https://movie-website-backend-eta.vercel.app/register', {
+        const response = await fetch('http://localhost:8000/register', {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',
@@ -136,7 +136,7 @@ const Register = () => {
             <span><p>{errors.confirmPassword}</p></span>
           </div>
           <a href="/login">Already Registered? Click Here</a>
-          <button type='submit'>Register</button>
+          <button type='submit' className='rgs'>Register</button>
         </form>
       </div>
     </div>

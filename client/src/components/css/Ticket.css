@@ -8,7 +8,7 @@
 }
 
 .booking-ticket {
-  height: 90vh;
+  height: 40vw;
   width: 70%;
   display: flex;
   flex-direction: column;
@@ -29,7 +29,7 @@
 #time,#movie{
   background-color: #EEEEEE;
   width: 10vw;
-  height: 5vh;
+  height: 4vw;
   border: 2px solid #000000;
   border-radius: 0.2vw;
   outline: none;
@@ -42,7 +42,7 @@
   width: 15vw;
 }
 .seat_selection{
-  min-height: 60vh;
+  min-height: 20vw;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -51,7 +51,7 @@
 }
 .seat {
   width: 2.5vw;
-  height: 5vh;
+  height: 2.5vw;
   margin: 0.2vw;
   display: inline-block;
   border-radius: 2px;
@@ -72,12 +72,12 @@
   font-size: 0.9vw;
 }
 .poll{
-  height: 90vh;
+  height: 40vw;
   width: 0.2%;
   background-color: #EEEEEE;
 }
 .booking_summary {
-  height: 90vh;
+  height: 40vw;
   width: 29.8%;
   display: flex;
   flex-direction: column;
@@ -101,11 +101,12 @@
   font-size: 1.2vw;
 }
 .summary_info button{
-  height: 6vh;
-  width: 8vw;
+  height: 3vw;
+  width: 10vw;
   background-color: #CADCFC;
   border: none;
   border-radius: 2vw;
+  cursor: pointer;
 }
 .not_login {
   height: 90vh;
@@ -138,4 +139,24 @@
   font-weight: bold;
   border-radius: 5px;
   cursor: pointer;
+}
+@media (max-width:800px) {
+  .main_conatiner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 70vh;
+  }
+  .booking-ticket{
+    width: 100%;
+    height: 60%;
+  }
+  .poll{
+    display: none;
+  }
+  .booking_summary{
+    width: 100%;
+    height: 40%;
+  }
 }

@@ -58,7 +58,7 @@
   }
   .mybtn{
     width: 10vw;
-    height: 6vh;
+    height: 4vw;
     cursor: pointer;
     border: 4px solid #E3651D;
     background-color: transparent;
@@ -71,4 +71,11 @@
     background-color: #E3651D;
     color: #0C0C0C;
     /* border: none; */
+  }
+  @media (max-width:800px) {
+    .mybtn{
+      width: 14vw;
+      height: 6vw;
+      font-size: 1.7vw;
+    }
   }

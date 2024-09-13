@@ -66,3 +66,26 @@
     position: relative;
     color: red;
   }
+  .rgs{
+    height: 40px;
+    width: 150px;
+    font-size: 20px;
+    background-color: #cf3958;
+    color: #3e0b2a;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 1s;
+}
+.rgs:hover{
+    background-color: #3e0b2a;
+    color: #cf3958;
+}
+@media (max-width:800px) {
+  .main_content{
+    width: 90%;
+  }
+}

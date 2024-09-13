@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const MovieCard = (props) => {
     return (
@@ -9,7 +10,7 @@ const MovieCard = (props) => {
             <div className="text_area">
                 <h3>{props.title}</h3>
                 <h5>{props.type} | {props.lang}</h5>
-                <button className='bookbtn'>Book Ticket</button>
+                <Link to='/ticket' className='bookbtn'>Book Ticket</Link>
             </div>
         </div>
     )

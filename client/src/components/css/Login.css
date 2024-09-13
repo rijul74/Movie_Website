@@ -87,3 +87,8 @@
     position: relative;
     color: red;
   }
+  @media (max-width:800px) {
+    .form_container{
+      width: 90%;
+    }
+  }
